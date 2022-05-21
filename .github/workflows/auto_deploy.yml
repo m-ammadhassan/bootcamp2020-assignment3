@@ -26,6 +26,9 @@ jobs:
         with:
           node-version: 16
           
+      - name: Install React Scripts
+        run: npm install react-scripts
+          
       - name: Create Build Folder
         run: npm run build
         
